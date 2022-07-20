@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557289225253",
+    "project_id": "ejob-india",
+    "storage_bucket": "ejob-india.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557289225253:android:4b40067adcbed1946153cc",
+        "android_client_info": {
+          "package_name": "com.example.recyclerviewdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557289225253-mf2ksc59u9kbkh8d4bbvhj55bou49gbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq3N0pMPiVwqyljubaNPG4O3CAIMmQqBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557289225253-mf2ksc59u9kbkh8d4bbvhj55bou49gbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

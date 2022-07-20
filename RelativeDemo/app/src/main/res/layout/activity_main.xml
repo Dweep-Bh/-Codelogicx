@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:id="@+id/l1"
+       android:background="@color/purple_200"
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="50dp"/>
+
+   <LinearLayout
+       android:id="@+id/l2"
+       android:layout_alignParentBottom="true"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="#CFC0EA"
+       android:orientation="horizontal"
+       >
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/ic_launcher"/>
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@mipmap/ic_launcher"
+          android:layout_marginLeft="10dp"/>
+
+
+   </LinearLayout>
+
+
+   <EditText
+       android:layout_below="@+id/l1"
+       android:id="@+id/username"
+       android:hint="Enter the username"
+       android:textSize="30dp"
+       android:textStyle="italic"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+
+   <EditText
+       android:id="@+id/password"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/username"
+       android:layout_marginTop="-9dp"
+       android:hint="Enter the Password"
+       android:textSize="20dp"
+       android:textStyle="bold" />
+
+   <EditText
+       android:id="@+id/phoneno"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/username"
+       android:layout_marginLeft="7dp"
+       android:layout_marginTop="-10dp"
+       android:layout_toRightOf="@id/password"
+       android:hint="Enter the Phoneno"
+       android:inputType="number"
+       android:textSize="20dp"
+       android:textStyle="bold" />
+
+   <EditText
+       android:id="@+id/address"
+       android:layout_below="@id/phoneno"
+       android:hint="Enter the address"
+       android:textSize="30dp"
+       android:textStyle="italic"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/address"
+       android:padding="10dp"
+       android:paddingRight="10dp"
+       android:orientation="horizontal">
+
+
+      <RadioButton
+          android:id="@+id/rb1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Male"
+          android:textSize="20dp"/>
+
+      <RadioButton
+          android:id="@+id/rb2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Female"
+          android:textSize="20dp">
+
+      </RadioButton>
+   </RadioGroup>
+
+   <Button
+       android:id="@+id/bt2"
+       android:layout_width="300dp"
+       android:layout_height="50dp"
+
+       android:layout_below="@id/address"
+       android:layout_centerInParent="true"
+       android:layout_gravity="center"
+       android:layout_marginLeft="16dp"
+       android:layout_marginTop="100dp"
+       android:backgroundTint="#F3FF5722"
+       android:text="Submit"
+       android:textColor="#1E0606" />
+
+</RelativeLayout>

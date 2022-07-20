@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/lowertab"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EJOB"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="62dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="45dp"
+        android:src="@drawable/back_big" />
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/innerlbg_big" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/banner" />
+
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img3"
+        android:layout_alignRight="@+id/tv1"
+        android:layout_marginTop="-45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="-158dp"
+        android:src="@drawable/fbicon" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/img3"
+        android:layout_alignRight="@+id/img4"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="-44dp"
+        android:layout_marginRight="-220dp"
+        android:layout_toRightOf="@+id/img4"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/img4"
+        android:layout_below="@+id/img3"
+        android:layout_marginRight="-226dp"
+        android:src="@drawable/ic_launcher"/>
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img3"
+        android:layout_marginTop="-33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ejob India"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Vasundhara Complex,NP-9,Sector-5,Salt Lake(NL-Midland Park)"
+        android:textColor="#3F51B5"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tv2"
+        android:textStyle="bold"
+        android:text="Phone: " />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv3"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:text="8697666921"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/tv2"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:text="EmailID:"
+        android:layout_below="@+id/tv4"
+        />
+
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="5dp"
+        android:text="bhowmickdweep7@gmail.com "
+        android:layout_toRightOf="@+id/tv5"
+        android:layout_below="@+id/tv4"
+        />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Website:"
+        android:layout_below="@+id/tv6"
+        />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="www.ejobindia.com "
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_toRightOf="@+id/tv7"
+        android:layout_below="@+id/tv6"
+        />
+
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img2"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="-70dp"
+        android:text="To become a part of Ejob india click the button below" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv9"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#102181"
+        android:text="Become a Member" />
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lowertab"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ejob" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/map" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/favourite_deselect" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/share" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/settings" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

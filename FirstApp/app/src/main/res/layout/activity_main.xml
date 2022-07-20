@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4DF8FF22"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F44336"
+        android:gravity="center"
+        android:text="Registration"/>
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the first name"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the last name"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Address"/>
+
+    <EditText
+
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:id="@+id/tv5"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the phone number"/>
+
+    <EditText
+        android:inputType="number"
+        android:maxLength="10"
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the locality"/>
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv7"
+       android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the gender"/>
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20dp">
+
+        </RadioButton>
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:text="Next"
+        android:textColor="#F8AF4C4F"
+        android:backgroundTint="#F3F8FF3B"
+        android:background="@drawable/button_rounded"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/bt2"
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#F3FF5722"
+        android:text="Submit"
+        android:textColor="#1E0606" />
+
+
+</LinearLayout>

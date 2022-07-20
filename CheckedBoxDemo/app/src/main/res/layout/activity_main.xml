@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#4CAF50"
+        android:text="courses"/>
+
+    <CheckBox
+        android:id="@+id/CB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:text="B.Tech"/>
+
+    <CheckBox
+        android:id="@+id/CM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:text="M.Tech"/>
+
+    <CheckBox
+        android:id="@+id/CM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:text="MBA"/>
+    <CheckBox
+        android:id="@+id/CM3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:text="PHD"/>
+
+    <Button
+        android:id="@+id/btnext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_200"
+        android:text="Submit"/>
+
+
+
+
+
+</LinearLayout>
